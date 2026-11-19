@@ -37,7 +37,7 @@ def test_cart_delivery_with_out_of_range_inputs_raises_error():
     ],
 )
 
-def test_cart_total_with_valid_inputs_returns_eligibility(total_cents, expected):
+def test_cart_delivery_with_valid_inputs_returns_eligibility(total_cents, expected):
     assert qualifies_free_delivery(total_cents) == expected
 
 
